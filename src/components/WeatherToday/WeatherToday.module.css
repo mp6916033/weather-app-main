@@ -1,0 +1,148 @@
+.app {
+  width: 80%;
+  height: auto;
+}
+
+.heading {
+  margin: 0 0 8px 8px;
+  font-weight: 400;
+}
+
+.ui {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  border: 10px solid #e7eef6;
+  background-color: #fdfffe;
+  color: #242527;
+
+  display: grid;
+  grid-template-columns: 40% 35% 25%;
+}
+
+.image {
+  margin-bottom: 0.1rem;
+  font-size: 5rem;
+  color: #1b8dfe;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details,
+.tempmnmx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp {
+  font-size: 64px;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+}
+
+.degree {
+  margin: 15px 1px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main {
+  font-size: 24px;
+  font-weight: 400;
+  margin: -18px 10% 10px 0;
+
+  text-transform: lowercase;
+}
+
+.desc {
+  font-size: 12px;
+  font-weight: 300;
+  .desc {
+    font-size: 12px;
+    font-weight: 300;
+    margin: -18px 10% 10px 0;
+
+    text-transform: lowercase;
+  }
+  margin: -18px 10% 10px 0;
+
+  text-transform: lowercase;
+}
+
+.sun {
+  margin-right: 20%;
+}
+
+.minmax {
+  margin: 10px 0;
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .app {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    margin: 0 0 2px 6px;
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+
+  .ui {
+    border-radius: 25px;
+    border: 7px solid #e7eef6;
+
+    grid-template-columns: 34% 33% 33%;
+  }
+
+  .image {
+    margin-bottom: 0.1rem;
+    font-size: 2.5rem;
+  }
+
+  .temp {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .degree {
+    margin: 8.5px 1px;
+    font-size: 17px;
+  }
+
+  .main {
+    font-size: 15px;
+    margin: -13px 15% 10px 0;
+  }
+
+  .desc {
+    font-size: 8px;
+    font-weight: 300;
+    margin: -15px 15% 7px 0;
+  }
+
+  .tempmnmx {
+    margin-right: 10%;
+  }
+
+  .minmax {
+    margin: 2px 0;
+    font-size: 0.8rem;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+}

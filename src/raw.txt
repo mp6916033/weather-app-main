@@ -1,0 +1,29 @@
+// import { useState } from "react";
+// import getFormattedWeatherData from "./services/weatherServices";
+// import { ToastContainer, toast } from "react-toastify";
+
+function App() {
+  // const [query, setQuery] = useState({ lat: "44.34", lon: "10.99" });
+  // const [units, setUnits] = useState("metric");
+  // const [weather, setWeather] = useState(null);
+
+  // const fetchWeather = async () => {
+  //   const message = query.q ? query.q : "current location.";
+
+  //   toast.info("Fetching weather for " + message);
+
+  //   await getFormattedWeatherData({ ...query, units }).then((data) => {
+  //     toast.success(
+  //       `Successfully fetched weather for ${data.name}, ${data.country}.`
+  //     );
+  //     console.log(data);
+  //     setWeather(data);
+  //   });
+  // };
+
+  // fetchWeather();
+
+  return <>Hello World!</>;
+}
+
+export default App;
